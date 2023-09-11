@@ -1,10 +1,10 @@
-<script>	
+<script>
 	import { afterNavigate, onNavigate } from '$app/navigation';
 
-	export let data
+	export let data;
 
-	let cur_image
-	const images = {}
+	let cur_image;
+	const images = {};
 
 	onNavigate((navigation) => {
 		if (!document.startViewTransition) return;
@@ -19,19 +19,19 @@
 			});
 		});
 	});
-	
+
 	afterNavigate((navigation) => {
 		cur_image = images[navigation.from?.params.slug];
-		cur_image.classList.add('image');
+		cur_image && cur_image.classList.add('image');
 	});
 </script>
 
 <h1>Bergen</h1>
 <div>
 	{#each data.fjell as { name, img } (name)}
-	<a href="/{name}" bind:this={images[name]}>
-		<img src={img} alt="">
-	</a>
+		<a href="/{name}" bind:this={images[name]}>
+			<img src={img} alt="" />
+		</a>
 	{/each}
 </div>
 
