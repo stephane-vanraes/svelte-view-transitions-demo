@@ -12,6 +12,10 @@
 	<slot />
 </main>
 
+<footer>
+	<a href="https://github.com/stephane-vanraes/svelte-view-transitions-demo">Github</a>
+</footer>
+
 <style>
 	header,
 	main {
