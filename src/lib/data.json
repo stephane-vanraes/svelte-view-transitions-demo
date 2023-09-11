@@ -1,0 +1,29 @@
+[{
+	"name": "lyderhorn",
+	"height": 396,
+	"img": "lyderhorn.jpg"
+},{
+	"name": "damsgårdsfjellet",
+	"height": 317,
+	"img": "/damsgårdsfjellet.jpg"
+},{
+	"name": "løvstakken",
+	"height": 477,
+	"img": "/løvstakken.jpg"
+},{
+	"name": "ulriken",
+	"height": 643,
+	"img": "/ulriken.jpg"
+},{
+	"name": "fløyen",
+	"height": 400,
+	"img": "/fløyen.jpg"
+},{
+	"name": "rundemanen",
+	"height": 568,
+	"img": "/rundemanen.jpg"
+},{
+	"name": "sandviksfjellet",
+	"height": 417,
+	"img": "/sandviksfjellet.jpg"
+}]
