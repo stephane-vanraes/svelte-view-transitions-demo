@@ -17,6 +17,7 @@
 </footer>
 
 <style>
+	footer,
 	header,
 	main {
 		margin: auto;
